@@ -1,6 +1,7 @@
-# Hangman Bot
+# Hangman Bot in Telegram 
 
 Telegram bot to play Hangman game.
+http://t.me/hangmanbot_bot
 
 ## Setup
 
