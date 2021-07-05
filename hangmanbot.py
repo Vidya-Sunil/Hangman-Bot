@@ -4,12 +4,12 @@ from wordnik import *
 global count, word, Guess_let, Miss_let, Hint
 
 # Telegram API
-API_KEY = "1899997640:AAHsQoWy3y3pJh6_X1Bg1b4nvawinuemM04"
+API_KEY = "Your Telegram API Key"
 bot = telebot.TeleBot(API_KEY, parse_mode=None)
 
 # Wordnik API
 apiUrl = 'http://api.wordnik.com/v4'
-apiKey = 'feolbmug8axv6cs0blyfog6fjoyl1hif9j6n0r4x6eiptup36'
+apiKey = 'Your Wordnik API key'
 client = swagger.ApiClient(apiKey, apiUrl)
 wordsApi = WordsApi.WordsApi(client)
 wordApi = WordApi.WordApi(client)
